@@ -10,8 +10,8 @@ using dotnet_core_postgres_code_first;
 namespace dotnet_core_postgres_code_first.Migrations
 {
     [DbContext(typeof(EFContext))]
-    [Migration("20180727140606_CreateDatabaseTables")]
-    partial class CreateDatabaseTables
+    [Migration("20180919141527_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
